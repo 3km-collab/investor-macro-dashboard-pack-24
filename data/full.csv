@@ -1,0 +1,25 @@
+indicator,source,series_id,direct_download_url,frequency,units,y2019,y2020,y2021,y2022,y2023,notes
+US CPI inflation (annual avg),BLS via FRED,CPIAUCSL (YoY transform),https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL,Monthly,% YoY,1.8,1.2,4.7,8.0,4.1,Annual averages of monthly YoY readings
+US Fed Funds Effective Rate,FRED,FEDFUNDS,https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDFUNDS,Monthly,% (year-avg),2.16,0.36,0.08,1.68,5.02,Annual average of daily effective rate
+US Unemployment Rate,BLS via FRED,UNRATE,https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE,Monthly,% (year-avg),3.7,8.1,5.4,3.6,3.6,Annual average of monthly rates
+US Real GDP Growth,BEA via FRED,A191RL1A225NBEA,https://fred.stlouisfed.org/graph/fredgraph.csv?id=A191RL1A225NBEA,Annual,% change,2.6,-2.2,5.8,2.1,2.9,Annual real GDP growth
+US 10Y Treasury Yield,FRED,DGS10,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10,Daily,% (year-avg),2.14,0.89,1.45,2.95,3.96,Annual average of daily yields
+US Initial Jobless Claims,DOL via FRED,ICSA,https://fred.stlouisfed.org/graph/fredgraph.csv?id=ICSA,Weekly,Claims (avg),"222,045","1,029,500","434,000","234,000","236,000",Weekly claims averaged per year (rounded)
+US ISM Manufacturing PMI,ISM (proxy series),NAPM (proxy),https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/,Monthly,Index (50=growth),52.1,51.4,60.0,57.9,47.2,"Annual average (rounded, indicative)"
+US Industrial Production Growth,Fed via FRED,INDPRO,https://fred.stlouisfed.org/graph/fredgraph.csv?id=INDPRO,Monthly,% YoY (year-avg),0.8,-7.1,1.4,3.1,0.2,Annual avg of monthly YoY
+US Retail Sales Growth,Census via FRED,RSAFSNA,https://fred.stlouisfed.org/graph/fredgraph.csv?id=RSAFSNA,Monthly,% YoY (year-avg),3.2,6.9,24.3,9.2,2.5,Nominal (inflation-affected)
+US Housing Starts,Census via FRED,HOUST,https://fred.stlouisfed.org/graph/fredgraph.csv?id=HOUST,Monthly,Units SAAR (avg),"1,290k","1,400k","1,610k","1,550k","1,430k",Annual average (rounded)
+US Personal Saving Rate,BEA via FRED,PSAVERT,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PSAVERT,Monthly,% (year-avg),7.9,16.4,12.4,4.7,4.7,Annual average
+US 2s10s Treasury Spread,FRED,T10Y2Y,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y2Y,Daily,% (year-avg),0.09,0.58,0.91,0.16,-0.36,Negative = inversion signal
+Euro Area HICP Inflation,ECB/Eurostat,(prices series via ECB SDW),https://data.ecb.europa.eu/,Monthly,% YoY (year-avg),1.2,0.3,2.6,8.4,5.4,Annual average
+Euro Area Unemployment,Eurostat,une_rt_m,https://ec.europa.eu/eurostat/web/products-euro-indicators,Monthly,% (year-avg),7.6,7.9,7.7,6.8,6.5,Annual average
+ECB Deposit Facility Rate (year-end),ECB,key rates,https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html,Policy,% (year-end),-0.50,-0.50,-0.50,2.00,4.00,Year-end standing rate
+World GDP Growth,World Bank,NY.GDP.MKTP.KD.ZG,https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG,Annual,%,2.8,-2.7,6.6,3.1,2.7,World aggregate (constant prices)
+Brent Crude Oil Price,EIA,Brent spot,https://www.eia.gov/dnav/pet/hist/RBRTEd.htm,Daily,$/bbl (year-avg),64,42,71,101,82,Annual average (rounded)
+Gold Price,LBMA,XAU,https://www.lbma.org.uk/prices-and-data/precious-metal-prices,Daily,$/oz (year-avg),"1,393","1,770","1,800","1,801","1,941",Annual average (rounded)
+US Dollar Index (DXY),ICE,DXY,https://www.marketwatch.com/investing/index/dxy,Daily,Index (year-avg),96.4,94.8,91.4,104.0,103.3,"Annual average (rounded, indicative)"
+IMF WEO Global Growth Outlook,IMF,WEO database,https://www.imf.org/en/Publications/WEO,Biannual,% projection,—,—,—,—,—,Rolling projections; fetch current WEO edition
+VIX Volatility Index,CBOE,VIX,https://www.cboe.com/tradable_products/vix/,Daily,Index (year-avg),15.4,29.5,19.7,25.5,17.2,Annual average (rounded)
+US Consumer Confidence (Conference Board),Conference Board,CCI,https://www.conference-board.org/topics/consumer-confidence,Monthly,Index (year-avg),128,101,117,104,104,"Annual average (rounded, indicative)"
+US Debt-to-GDP,CBO,Debt held by public,https://www.cbo.gov/data/budget-economic-data,Annual,% of GDP (year-end),79,98,96,96,97,Gross federal debt vs public ~97% (indicative)
+US Core CPI (ex food/energy),BLS via FRED,CPILFESL,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPILFESL,Monthly,% YoY (year-avg),2.2,1.7,3.6,6.3,4.8,Annual average of monthly YoY
