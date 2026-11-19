@@ -1,51 +1,11 @@
-id,name,category,region,value_usd,quantity,score,active,updated_at
-R100000,Lumen Energy 0,Retail,APAC,1013.47,53,53.7,False,2025-04-25
-R100001,Apex Manufacturing 1,Logistics,APAC,74.84,416,17.1,False,2024-09-05
-R100002,Peak SaaS 2,Healthcare,Europe,4845.8,116,55.6,False,2024-04-16
-R100003,Quantum Education 3,Logistics,North America,1182.99,234,18.3,False,2024-09-04
-R100004,Nova Manufacturing 4,Logistics,APAC,2055.22,468,91.1,True,2024-12-06
-R100005,Apex Education 5,Healthcare,APAC,4660.52,348,42.2,False,2024-05-06
-R100006,Quantum Retail 6,Logistics,Europe,125.14,322,49.1,True,2025-07-25
-R100007,Blue SaaS 7,Real Estate,North America,4644.01,449,64.7,False,2025-10-06
-R100008,Bright Healthcare 8,Education,APAC,180.94,209,51.7,False,2025-11-20
-R100009,Summit Real Estate 9,Retail,LATAM,840.99,107,65.2,False,2024-03-13
-R100010,Apex Education 10,E-Commerce,APAC,3019.68,156,21.9,False,2025-08-12
-R100011,Summit Real Estate 11,Energy,MEA,4000.44,486,8.9,False,2025-07-24
-R100012,Lumen Fintech 12,Logistics,LATAM,1944.05,419,34.9,False,2024-12-18
-R100013,Bright Fintech 13,SaaS,APAC,3508.57,205,14.6,False,2025-07-30
-R100014,Quantum Energy 14,Energy,North America,4846.59,43,22.9,True,2025-04-09
-R100015,Prime Real Estate 15,Education,Europe,2680.63,76,34.4,False,2024-06-30
-R100016,Quantum SaaS 16,Logistics,LATAM,943.56,221,82.1,False,2024-02-23
-R100017,Prime Education 17,SaaS,APAC,1010.06,274,84.1,True,2024-06-03
-R100018,Prime E-Commerce 18,E-Commerce,North America,4763.12,273,38.5,True,2024-07-19
-R100019,North Fintech 19,Fintech,APAC,1535.73,437,28.1,False,2025-06-25
-R100020,North SaaS 20,Retail,APAC,2439.09,345,72.9,True,2024-07-29
-R100021,Cedar Logistics 21,E-Commerce,North America,379.04,313,17.2,True,2024-05-02
-R100022,North SaaS 22,Logistics,North America,1836.62,367,99.9,False,2024-07-09
-R100023,Lumen Logistics 23,Real Estate,MEA,983.31,92,67.8,True,2024-04-30
-R100024,Blue Logistics 24,Healthcare,LATAM,3627.17,362,23.2,False,2024-03-05
-R100025,Cedar Fintech 25,SaaS,MEA,2730.32,479,15.6,True,2025-01-17
-R100026,Lumen Fintech 26,Manufacturing,LATAM,3035.46,298,39.8,True,2025-04-05
-R100027,Orbit Healthcare 27,Fintech,Europe,1732.3,274,0.1,True,2024-01-12
-R100028,Peak Energy 28,Real Estate,Europe,1425.54,280,38.5,True,2025-11-20
-R100029,Apex Fintech 29,Logistics,North America,4022.48,73,8.5,False,2024-08-29
-R100030,Bright Retail 30,Retail,North America,4546.69,375,82.1,False,2025-01-15
-R100031,Orbit Real Estate 31,Energy,MEA,2971.45,276,84.5,False,2024-07-12
-R100032,Quantum E-Commerce 32,Logistics,MEA,3754.34,136,35.9,False,2024-07-30
-R100033,Nova E-Commerce 33,Healthcare,LATAM,2006.81,180,62.8,True,2024-07-03
-R100034,Alpha Fintech 34,Retail,Europe,2988.54,237,70.2,False,2025-07-31
-R100035,Orbit Retail 35,Real Estate,Europe,1438.2,454,28.6,False,2024-06-09
-R100036,North Real Estate 36,Manufacturing,MEA,4470.65,302,45.4,True,2025-04-09
-R100037,Prime Healthcare 37,Energy,MEA,3671.4,230,63.2,False,2024-03-06
-R100038,Blue E-Commerce 38,Manufacturing,APAC,923.08,25,42.3,True,2025-01-18
-R100039,Lumen E-Commerce 39,Education,LATAM,3022.67,109,6.9,False,2024-12-14
-R100040,Bright E-Commerce 40,E-Commerce,MEA,2998.67,500,65.9,False,2025-03-05
-R100041,Alpha Retail 41,Healthcare,MEA,1727.34,67,32.7,True,2025-04-22
-R100042,Quantum SaaS 42,SaaS,Europe,4015.99,218,30.4,False,2025-05-25
-R100043,Quantum E-Commerce 43,E-Commerce,LATAM,1516.75,173,26.9,True,2024-07-23
-R100044,Cedar Logistics 44,Manufacturing,North America,1157.47,108,29.8,False,2025-09-11
-R100045,Prime Real Estate 45,Healthcare,APAC,4349.03,61,55.4,False,2025-04-24
-R100046,Nova Real Estate 46,Healthcare,Europe,2438.44,348,48.1,True,2024-11-23
-R100047,Lumen Real Estate 47,Education,APAC,2119.49,234,99.7,True,2025-08-23
-R100048,Summit Manufacturing 48,Energy,APAC,4779.64,463,0.9,False,2025-02-11
-R100049,Lumen Energy 49,Fintech,Europe,2965.11,194,21.0,True,2024-07-25
+indicator,source,series_id,direct_download_url,frequency,units,y2019,y2020,y2021,y2022,y2023,notes
+US CPI inflation (annual avg),BLS via FRED,CPIAUCSL (YoY transform),https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL,Monthly,% YoY,1.8,1.2,4.7,8.0,4.1,Annual averages of monthly YoY readings
+US Fed Funds Effective Rate,FRED,FEDFUNDS,https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDFUNDS,Monthly,% (year-avg),2.16,0.36,0.08,1.68,5.02,Annual average of daily effective rate
+US Unemployment Rate,BLS via FRED,UNRATE,https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE,Monthly,% (year-avg),3.7,8.1,5.4,3.6,3.6,Annual average of monthly rates
+US Real GDP Growth,BEA via FRED,A191RL1A225NBEA,https://fred.stlouisfed.org/graph/fredgraph.csv?id=A191RL1A225NBEA,Annual,% change,2.6,-2.2,5.8,2.1,2.9,Annual real GDP growth
+US 10Y Treasury Yield,FRED,DGS10,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10,Daily,% (year-avg),2.14,0.89,1.45,2.95,3.96,Annual average of daily yields
+US Initial Jobless Claims,DOL via FRED,ICSA,https://fred.stlouisfed.org/graph/fredgraph.csv?id=ICSA,Weekly,Claims (avg),"222,045","1,029,500","434,000","234,000","236,000",Weekly claims averaged per year (rounded)
+US ISM Manufacturing PMI,ISM (proxy series),NAPM (proxy),https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/,Monthly,Index (50=growth),52.1,51.4,60.0,57.9,47.2,"Annual average (rounded, indicative)"
+US Industrial Production Growth,Fed via FRED,INDPRO,https://fred.stlouisfed.org/graph/fredgraph.csv?id=INDPRO,Monthly,% YoY (year-avg),0.8,-7.1,1.4,3.1,0.2,Annual avg of monthly YoY
+US Retail Sales Growth,Census via FRED,RSAFSNA,https://fred.stlouisfed.org/graph/fredgraph.csv?id=RSAFSNA,Monthly,% YoY (year-avg),3.2,6.9,24.3,9.2,2.5,Nominal (inflation-affected)
+US Housing Starts,Census via FRED,HOUST,https://fred.stlouisfed.org/graph/fredgraph.csv?id=HOUST,Monthly,Units SAAR (avg),"1,290k","1,400k","1,610k","1,550k","1,430k",Annual average (rounded)
